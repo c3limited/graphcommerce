@@ -160,6 +160,16 @@ type BundleProduct {
   custom_attributesV2(filters: AttributeFilterInput): ProductCustomAttributes
     @deprecated(reason: "Magento >= 2.4.7")
 }
+
+type GiftCardProduct {
+  """
+  Product custom attributes.
+  """
+  custom_attributesV2(filters: AttributeFilterInput): ProductCustomAttributes
+    @deprecated(reason: "Magento >= 2.4.7")
+}
+
+
 type DownloadableProduct {
   """
   Product custom attributes.
